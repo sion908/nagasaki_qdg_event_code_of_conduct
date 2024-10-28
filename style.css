@@ -1,0 +1,148 @@
+/* 1. リストスタイル共通設定 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto; /* 水平方向のmarginをautoに */
+  width: 800px;
+}
+
+/* 2. リストマーカーのパターン（全てのレベルで共通のパターンをまとめる） */
+/* 2.1 黒丸（●）を使用するリスト */
+.lst-kix_d0coj1utcgh-0>li:before,
+.lst-kix_d0coj1utcgh-3>li:before,
+.lst-kix_d0coj1utcgh-6>li:before,
+.lst-kix_6vq8xzvh7nle-0>li:before,
+.lst-kix_6vq8xzvh7nle-3>li:before,
+.lst-kix_6vq8xzvh7nle-6>li:before,
+.lst-kix_37wy0lg2onr4-0>li:before,
+.lst-kix_37wy0lg2onr4-3>li:before,
+.lst-kix_37wy0lg2onr4-6>li:before,
+.lst-kix_lb4jed3ovjcq-0>li:before,
+.lst-kix_lb4jed3ovjcq-3>li:before,
+.lst-kix_lb4jed3ovjcq-6>li:before {
+  content: "●   ";
+}
+
+/* 2.2 白丸（○）を使用するリスト */
+.lst-kix_d0coj1utcgh-1>li:before,
+.lst-kix_d0coj1utcgh-4>li:before,
+.lst-kix_d0coj1utcgh-7>li:before,
+.lst-kix_6vq8xzvh7nle-1>li:before,
+.lst-kix_6vq8xzvh7nle-4>li:before,
+.lst-kix_6vq8xzvh7nle-7>li:before,
+.lst-kix_37wy0lg2onr4-1>li:before,
+.lst-kix_37wy0lg2onr4-4>li:before,
+.lst-kix_37wy0lg2onr4-7>li:before,
+.lst-kix_lb4jed3ovjcq-1>li:before,
+.lst-kix_lb4jed3ovjcq-4>li:before,
+.lst-kix_lb4jed3ovjcq-7>li:before {
+  content: "○   ";
+}
+
+/* 2.3 四角（■）を使用するリスト */
+.lst-kix_d0coj1utcgh-2>li:before,
+.lst-kix_d0coj1utcgh-5>li:before,
+.lst-kix_d0coj1utcgh-8>li:before,
+.lst-kix_6vq8xzvh7nle-2>li:before,
+.lst-kix_6vq8xzvh7nle-5>li:before,
+.lst-kix_6vq8xzvh7nle-8>li:before,
+.lst-kix_37wy0lg2onr4-2>li:before,
+.lst-kix_37wy0lg2onr4-5>li:before,
+.lst-kix_37wy0lg2onr4-8>li:before,
+.lst-kix_lb4jed3ovjcq-2>li:before,
+.lst-kix_lb4jed3ovjcq-5>li:before,
+.lst-kix_lb4jed3ovjcq-8>li:before {
+  content: "■   ";
+}
+
+/* 3. 見出しスタイル */
+.title {
+  font-size: 26pt;
+  padding: 0pt 0pt 3pt 0pt;
+  color: #000000;
+  font-family: "Arial";
+  line-height: 1.15;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20pt;
+  padding: 20pt 0pt 6pt 0pt;
+}
+
+h3 {
+  font-size: 16pt;
+  padding: 18pt 0pt 6pt 0pt;
+}
+
+/* 4. 基本テキストスタイル */
+p,
+li {
+  color: #000000;
+  font-size: 11pt;
+  font-family: "Arial";
+  margin: 0;
+}
+
+/* 5. フォントクラス */
+.c4 {
+  font-family: "Meiryo";
+  font-size: 10pt;
+}
+
+.h1 {
+  font-family: "Arial";
+  font-size: 26pt;
+}
+
+.c23 {
+  font-family: "Meiryo";
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+/* 6. リンクスタイル */
+.c16 {
+  color: #1155cc;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.c24 {
+  color: #1155cc;
+}
+
+.c8 {
+  color: #0066cc;
+}
+
+/* 7. レイアウト設定 */
+.c10 {
+  background-color: #ffffff;
+  max-width: 451.4pt;
+  padding: 72pt;
+}
+
+.c25 {
+  background-color: #dfd08a;
+  padding: 3.8pt 7.5pt 3.8pt 11.2pt;
+  line-height: 1.5;
+}
+
+/* 8. マージンとインデント */
+.c7 {
+  margin-left: 2ch;
+}
+
+.c19 {
+  margin-left: 8pt;
+}
+
+.c20 {
+  margin-left: 10pt;
+  text-indent: -10pt;
+}
